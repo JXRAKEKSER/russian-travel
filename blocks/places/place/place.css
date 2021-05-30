@@ -7,3 +7,14 @@
     gap: 48px 40px;
     max-width: 1500px;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .place {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-rows: repeat(3, minmax(min-content, max-content)); */
+        grid-template-rows: minmax(min-content, max-content), fit-content(348px);
+        grid-template-areas: "h url" "img p1" "img p2";
+        gap: 48px 32px;
+    }
+}

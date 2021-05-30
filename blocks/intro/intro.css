@@ -4,3 +4,12 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .intro {
+        width: calc(100% - 48px - 286px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

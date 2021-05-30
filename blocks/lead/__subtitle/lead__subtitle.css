@@ -8,3 +8,16 @@
     margin: 0 0 64px 0;
     color: #FFFFFF;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .lead__subtitle {
+        width: calc(100% - 2*144px);
+        min-height: fit-content;
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 400;
+        text-align: center;
+        margin: 0 0 56px 0;
+        color: #FFFFFF;
+    }
+}
