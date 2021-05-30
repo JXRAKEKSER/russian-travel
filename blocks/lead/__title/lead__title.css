@@ -23,3 +23,17 @@
         color: #FFFFFF;
     }
 }
+
+@media screen and (min-width: 425px) and (max-width: 1024px) {
+    .lead__title {
+        width: calc(100% - 2*24px);
+        min-height: fit-content;
+        font-size: 96px;
+        font-weight: 900;
+        line-height: 100px;
+        font-style: normal;
+        text-align: center;
+        margin: 0 0 32px 0;
+        color: #FFFFFF;
+    }
+}
