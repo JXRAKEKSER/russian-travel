@@ -14,3 +14,12 @@
         margin-bottom: 0;
     }
 }
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .places__place {
+        margin-bottom: 50px;
+    }
+    .places__place:last-child {
+        margin-bottom: 0;
+    }
+}
