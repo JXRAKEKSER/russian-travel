@@ -4,11 +4,11 @@
     padding: 28px 48px 56px 48px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
     .header {
         width: calc(100% - 2*48px);
         display: flex;
-        padding: 28px 48px 56px 48px;
+        padding: 28px 48px 48px 48px;
     }
 }
 
