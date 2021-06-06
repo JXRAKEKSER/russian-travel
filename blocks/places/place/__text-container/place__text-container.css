@@ -1,0 +1,5 @@
+.place__text-conrainer {
+    display: flex;
+    flex-direction: column;
+    grid-area: p1;
+}

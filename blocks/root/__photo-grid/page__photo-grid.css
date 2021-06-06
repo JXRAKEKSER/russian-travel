@@ -2,9 +2,21 @@
     margin: 0 48px 92px 48px;
 }
 
-@media screen and (min-width: 425px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
+    .page__photo-grid {
+        margin: 0 48px 88px 48px;
+    }
+}
+
+@media screen and (min-width: 610px) and (max-width: 768px) {
     .page__photo-grid {
         margin: 0 24px 88px 24px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 610px) {
+    .page__photo-grid {
+        margin: 0 0 88px 0;
     }
 }
 
