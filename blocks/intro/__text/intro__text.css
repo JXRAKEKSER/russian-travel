@@ -1,26 +1,15 @@
 .intro__text {
-    width: 100%;
-    min-height: 208px;
-    max-width: 1200px;
-    align-self: flex-start;
-    font-family: Inter;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    text-align: left;
     color: #FFFFFF;
     margin: 0 0 33px 0;
+    width: 100%;
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (min-width: 320px) and (max-width: 426px) {
     .intro__text {
-        width: 100%;
-        min-height: 208px;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 26px;
-        color: #FFFFFF;
         margin: 0 0 34px 0;
     }
 }

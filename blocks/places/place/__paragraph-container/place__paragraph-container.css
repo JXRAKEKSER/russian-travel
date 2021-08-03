@@ -1,0 +1,10 @@
+.place__paragraph-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 320px) and (max-width: 426px) {
+    .place__paragraph-container {
+        margin: 32px 16px 0 16px;
+    }
+}
