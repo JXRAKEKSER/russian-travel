@@ -17,3 +17,9 @@
         width: calc(100% - 2*24px);
     }
 }
+
+@media screen and (min-width: 1550px) {
+    .footer {
+        width: 1550px;
+    }
+}

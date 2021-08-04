@@ -19,3 +19,9 @@
         width: calc(100% - 2*48px);
     }
 }
+
+@media screen and (min-width: 1550px) {
+    .places {
+        width: 1550px;
+    }
+}

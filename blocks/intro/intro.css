@@ -21,3 +21,9 @@
         width: calc(100% - 48px - 286px);
     }
 }
+
+@media screen and (min-width: 1550px) {
+    .intro {
+        width: 1550px;
+    }
+}

@@ -13,3 +13,9 @@
         margin: 88px 24px 24px 24px;
     }
 }
+
+@media screen and (min-width: 1550px) {
+    .page__footer {
+        margin: 92px auto 24px auto;
+    }
+}
