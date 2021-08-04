@@ -3,7 +3,7 @@
     width: calc(100% - 2*48px);
     gap: 16px;
     grid-template-columns: repeat(4, minmax(284px, 350px));
-    grid-template-rows: repeat(3, minmax(213px, 1fr))
+    grid-template-rows: repeat(3, minmax(213px, 1fr));
 }
 
 @media screen and (min-width: 320px) and (max-width: 426px) {
