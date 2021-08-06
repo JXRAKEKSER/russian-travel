@@ -20,7 +20,7 @@
     right: 0;
     bottom: 0;
     z-index: -1;
-    background-color: #000;
+    background-color: #2A2C2F;
     opacity: 0.3;
     transition: opacity 350ms ease;
 }
@@ -50,8 +50,9 @@
     }
 }
 
-@media screen and (min-width: 1550px) {
+@media screen and (min-width: 1281px) {
     .cover {
-        width: 1550px;
+        width: none;
+        max-width: 1280px;
     }
 }

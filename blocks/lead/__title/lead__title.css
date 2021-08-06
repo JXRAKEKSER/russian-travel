@@ -38,3 +38,11 @@
         width: calc(100% - 2*104px);
     }
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1240px) {
+    .lead__title {
+        width: calc(100% - 2*104px);
+        font-size: 60px;
+        line-height: 60px;
+    }
+}

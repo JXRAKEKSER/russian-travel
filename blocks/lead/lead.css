@@ -5,13 +5,7 @@
     align-items: center;
 }
 
-@media (min-width: 320px) and (max-width: 426px) {
-    .lead {
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 426px) and (max-width: 900px) {
+@media (min-width: 320px) and (max-width: 900px) {
     .lead {
         width: 100%;
     }
@@ -23,8 +17,9 @@
     }
 }
 
-@media screen and (min-width: 1550px) {
+@media screen and (min-width: 1281px) {
     .lead {
-        width: 1550px;
+        width: none;
+        max-width: 1280px;
     }
 }
