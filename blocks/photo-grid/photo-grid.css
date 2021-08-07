@@ -20,7 +20,6 @@
         width: calc(100% - 2*24px);
         grid-template-columns: repeat(2, minmax(calc((100% - 16px - 2*24px)/2), 352px));
         grid-template-rows: repeat(6, fit-content(264px));
-        gap: 16px;
     }
 }
 
@@ -39,12 +38,3 @@
         gap: 14px;
     }
 }
-
-
-/* @media screen and (min-width: 1281px) {
-    .photo-grid {
-        width: none;
-        max-width: 1280px;
-        
-    }
-} */
